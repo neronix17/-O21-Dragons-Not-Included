@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>O21_DNI_ShoulderCloak</defName>
+		<label>cloak (shoulder)</label>
+		<description>A tough cloak to protect against heat, cold and some damage protection.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Cloak/Cloak</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.7</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/Cloak/Cloak</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<!-- ======================================= Leather Armour =======================================-->
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>O21_DNI_LeatherLight</defName>
+		<label>pauldrons (light)</label>
+		<description>A single leathery pauldron, decent protection overall.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/Armour/Leather/LightLeather</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.3</Flammability>
+			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.20</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Armour/Leather/LightLeather</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>O21_DNI_LeatherHeavy</defName>
+		<label>pauldrons (heavy)</label>
+		<description>A pair of leathery pauldrons, decent protection overall.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/Armour/Leather/HeavyLeather</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.3</Flammability>
+			<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Armour/Leather/HeavyLeather</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

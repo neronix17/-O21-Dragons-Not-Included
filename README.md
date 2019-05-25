@@ -9,4 +9,4 @@ Includes:
 Body Restrictions May Apply.
 
 Requires: 
-- [O21] Toolbox
+- [O21] Toolbox (https://github.com/neronix17/-O21-Toolbox/releases/latest)

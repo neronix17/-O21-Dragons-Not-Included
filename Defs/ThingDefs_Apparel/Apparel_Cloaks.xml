@@ -45,14 +45,6 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
 		</apparel>
-		<comps>
-			<li Class="O21Toolbox.ApparelRestrict.CompProperties_BodyRestrict">
-				<compClass>O21Toolbox.ApparelRestrict.Comp_BodyRestrict</compClass>
-				<BodyDefs>
-					<li>Male</li>
-				</BodyDefs>
-			</li>
-		</comps>
 	</ThingDef>
 	
 </Defs>

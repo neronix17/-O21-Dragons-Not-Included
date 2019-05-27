@@ -35,9 +35,9 @@
 		</costList>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Neck</li>
 				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Armour/Leather/LightLeather</wornGraphicPath>
 			<layers>
@@ -84,9 +84,9 @@
 		</costList>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Neck</li>
 				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Armour/Leather/HeavyLeather</wornGraphicPath>
 			<layers>

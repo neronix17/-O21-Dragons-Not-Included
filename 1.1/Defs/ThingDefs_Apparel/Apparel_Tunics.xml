@@ -33,6 +33,7 @@
 				<li>Neck</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
+				<li>Legs</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Clothing/Tunic/Tunic</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -41,6 +42,7 @@
 			</layers>
 			<tags>
 				<li>Medieval</li>
+				<li>MedievalBasic</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>

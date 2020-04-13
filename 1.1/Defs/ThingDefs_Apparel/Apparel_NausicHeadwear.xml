@@ -24,7 +24,6 @@
 			<StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>0.8</EquipDelay>
 		</statBases>
-		<generateCommonality>0.1</generateCommonality>
 		<apparel Inherit="False">
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -44,6 +43,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        </recipeMaker>
 	</ThingDef>
 	
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -77,6 +79,7 @@
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
 		<apparel Inherit="False">
 			<bodyPartGroups>
@@ -124,7 +127,6 @@
 		<equippedStatOffsets>
 			<ToxicSensitivity>-0.30</ToxicSensitivity>
 		</equippedStatOffsets>
-		<generateCommonality>0.1</generateCommonality>
 		<apparel Inherit="False">
 			<bodyPartGroups>
 				<li>UpperHead</li>
@@ -144,6 +146,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        </recipeMaker>
 	</ThingDef>
 	
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -180,6 +185,7 @@
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
 		<apparel Inherit="False">
 			<bodyPartGroups>

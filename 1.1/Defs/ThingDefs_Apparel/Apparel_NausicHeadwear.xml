@@ -26,7 +26,7 @@
 		</statBases>
 		<apparel Inherit="False">
 			<bodyPartGroups>
-				<li>UpperHead</li>
+				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/Hood</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -35,8 +35,7 @@
 			</layers>
 			<tags Inherit="False">
 				<li>Nausic</li>
-				<li>Medieval</li>
-				<li>MedievalBasic</li>
+				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -83,7 +82,7 @@
 		</recipeMaker>
 		<apparel Inherit="False">
 			<bodyPartGroups>
-				<li>UpperHead</li>
+				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/HoodArmoured</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -92,8 +91,7 @@
 			</layers>
 			<tags>
 				<li>Nausic</li>
-				<li>Medieval</li>
-				<li>MedievalBasic</li>
+				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -129,7 +127,7 @@
 		</equippedStatOffsets>
 		<apparel Inherit="False">
 			<bodyPartGroups>
-				<li>UpperHead</li>
+				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/GasMask</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -138,8 +136,7 @@
 			</layers>
 			<tags Inherit="False">
 				<li>Nausic</li>
-				<li>Medieval</li>
-				<li>MedievalBasic</li>
+				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -161,13 +158,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
-		<stuffCategories>
-			<li>Fabric</li>
-		</stuffCategories>
-		<costStuffCount>25</costStuffCount>
-		<costList>
-			<Steel>15</Steel>
-		</costList>
 		<statBases>
 			<WorkToMake>3200</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>
@@ -187,9 +177,16 @@
 			</recipeUsers>
             <researchPrerequisite>ComplexClothing</researchPrerequisite>
 		</recipeMaker>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
 		<apparel Inherit="False">
 			<bodyPartGroups>
-				<li>UpperHead</li>
+				<li>FullHead</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/GasMaskArmoured</wornGraphicPath>
 			<useWornGraphicMask>true</useWornGraphicMask>
@@ -198,8 +195,7 @@
 			</layers>
 			<tags>
 				<li>Nausic</li>
-				<li>Medieval</li>
-				<li>MedievalBasic</li>
+				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

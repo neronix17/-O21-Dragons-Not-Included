@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TropicalSpearBase">
+        <defName>O21_TropicalSpearA</defName>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Spear01</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalSpearBase">
+        <defName>O21_TropicalSpearB</defName>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Spear02</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalSpearBase">
+        <defName>O21_TropicalSpearC</defName>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Spear03</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalSpearBase">
+        <defName>O21_TropicalSpearD</defName>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Spear04</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+</Defs>

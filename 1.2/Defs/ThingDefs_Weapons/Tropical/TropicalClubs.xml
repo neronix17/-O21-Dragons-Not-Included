@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TropicalClubBase">
+        <defName>O21_TropicalBoneclub</defName>
+        <label>tropical bone club</label>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Boneclub</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalClubBase">
+        <defName>O21_TropicalCrabClub</defName>
+        <label>tropical crab club</label>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Crabclaw</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalBladeBase">
+        <defName>O21_TropicalShardClub</defName>
+        <label>tropical shard club</label>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Shardclub</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+</Defs>

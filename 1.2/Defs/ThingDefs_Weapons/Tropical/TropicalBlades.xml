@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TropicalBladeBase">
+        <defName>O21_TropicalDagger</defName>
+        <label>tropical dagger</label>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Dagger</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalBladeBase">
+        <defName>O21_TropicalAxe</defName>
+        <label>tropical shark axe</label>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Sharkaxe</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalBladeBase">
+        <defName>O21_TropicalShiv</defName>
+        <label>tropical shiv</label>
+        <graphicData>
+            <texPath>Things/Weapons/Melee/Shiv</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+</Defs>

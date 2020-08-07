@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>O21_DNI_NausicHoodGoggled</defName>
+		<label>nausic goggled hood</label>
+		<description>A nausic hood, it is designed to be worn in a way that it partially covers the face.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Nausicaan/Hood_east</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.25</uiIconScale>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<apparel Inherit="False">
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/Hood</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags Inherit="False">
+				<li>Nausic</li>
+				<li>MedievalMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        </recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>O21_DNI_NausicHoodGoggled_Armoured</defName>
+		<label>nausic goggled hood (armoured)</label>
+		<description>A nausic hood, it is designed to be worn in a way that it partially covers the face. It also has a metal plate covering the forehead for some light protection.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Nausicaan/HoodArmoured_east</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<statBases>
+			<WorkToMake>3200</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<apparel Inherit="False">
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/HoodArmoured</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Nausic</li>
+				<li>MedievalMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>O21_DNI_NausicGasmask</defName>
+		<label>nausic gasmask</label>
+		<description>A nausic gasmask, it is designed to fully cover the face and provide protection against toxicity.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Nausicaan/GasMask_east</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.25</uiIconScale>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1200</WorkToMake>
+			<Mass>0.1</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>0.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicSensitivity>-0.30</ToxicSensitivity>
+		</equippedStatOffsets>
+		<apparel Inherit="False">
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/GasMask</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags Inherit="False">
+				<li>Nausic</li>
+				<li>MedievalMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        </recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorHelmetMakeableBase">
+		<defName>O21_DNI_NausicGasmask_Armoured</defName>
+		<label>nausic gasmask (armoured)</label>
+		<description>A nausic gasmask, it is designed to fully cover the face and provide protection against toxicity. It also has a metal plate covering the forehead for some light protection.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Nausicaan/GasMaskArmoured_east</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.4</uiIconScale>
+		<statBases>
+			<WorkToMake>3200</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0.60</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.65</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicSensitivity>-0.30</ToxicSensitivity>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<apparel Inherit="False">
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Clothing/Nausicaan/GasMaskArmoured</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>Nausic</li>
+				<li>MedievalMilitary</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

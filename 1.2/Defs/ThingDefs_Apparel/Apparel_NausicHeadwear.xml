@@ -43,7 +43,7 @@
 			</defaultOutfitTags>
 		</apparel>
         <recipeMaker>
-            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<researchPrerequisite>O21_DNI_SimpleApparel</researchPrerequisite>
         </recipeMaker>
 	</ThingDef>
 	
@@ -78,7 +78,7 @@
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>
-            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
 		</recipeMaker>
 		<apparel Inherit="False">
 			<bodyPartGroups>
@@ -144,7 +144,7 @@
 			</defaultOutfitTags>
 		</apparel>
         <recipeMaker>
-            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<researchPrerequisite>O21_DNI_SimpleApparel</researchPrerequisite>
         </recipeMaker>
 	</ThingDef>
 	
@@ -175,7 +175,7 @@
 				<li>ElectricSmithy</li>
 				<li>FueledSmithy</li>
 			</recipeUsers>
-            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
 		</recipeMaker>
 		<costStuffCount>25</costStuffCount>
 		<costList>

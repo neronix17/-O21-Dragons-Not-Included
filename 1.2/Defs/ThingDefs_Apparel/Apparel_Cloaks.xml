@@ -18,6 +18,9 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+        <recipeMaker>
+			<researchPrerequisite>O21_DNI_SimpleApparel</researchPrerequisite>
+        </recipeMaker>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToMake>5000</WorkToMake>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchTabDef>
+		<defName>O21_DNI_DragonsNotIncluded</defName>
+		<label>Dragons Not Included</label>
+	</ResearchTabDef>
+
+	<ResearchProjectDef Name="O21DNIResearchBase" Abstract="True">
+		<tab>O21_DNI_DragonsNotIncluded</tab>
+		<techLevel>Medieval</techLevel>
+	</ResearchProjectDef>
+    
+</Defs>

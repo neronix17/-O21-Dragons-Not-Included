@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="O21BaseMakeableGunMedieval">
 		<defName>O21_Gun_ResonanceRifle</defName>
 		<label>resonance rifle</label>
 		<description>An advanced medieval weapon, uses magic runes to fire blasts of air strong enough to do damage as if a blunt weapon was striking.</description>
@@ -34,19 +34,8 @@
 			<Steel>40</Steel>
 			<Gold>6</Gold>
 		</costList>
-		<recipeMaker Inherit="False">
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Smith</soundWorking>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>ElectricSmithy</li>
-				<li>FueledSmithy</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		<recipeMaker>
+			<researchPrerequisite>O21_DNI_ResonanceGuns</researchPrerequisite>
 		</recipeMaker>
 		<verbs>
 			<li>

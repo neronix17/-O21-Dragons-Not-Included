@@ -52,6 +52,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+        <recipeMaker>
+			<researchPrerequisite>O21_DNI_LeatherArmour</researchPrerequisite>
+        </recipeMaker>
 	</ThingDef>
 	
 	<ThingDef ParentName="ApparelMakeableBase">
@@ -103,6 +106,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+        <recipeMaker>
+			<researchPrerequisite>O21_DNI_LeatherArmour</researchPrerequisite>
+        </recipeMaker>
 	</ThingDef>
 
 </Defs>

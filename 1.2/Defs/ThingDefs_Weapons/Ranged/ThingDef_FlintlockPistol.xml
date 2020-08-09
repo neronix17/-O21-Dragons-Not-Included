@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="BaseHumanMakeableGun">
+	<ThingDef ParentName="O21BaseMakeableGunMedieval">
 		<defName>O21_Gun_FlintlockPistol</defName>
 		<label>flintlock pistol</label>
 		<description>An advanced medieval weapon, using explosive powder ignited by a flint and steel mechanism to propel a metal ball.</description>
@@ -28,19 +28,8 @@
 			<Steel>40</Steel>
 			<Gold>6</Gold>
 		</costList>
-		<recipeMaker Inherit="False">
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Smith</soundWorking>
-			<skillRequirements>
-				<Crafting>4</Crafting>
-			</skillRequirements>
-			<recipeUsers>
-				<li>ElectricSmithy</li>
-				<li>FueledSmithy</li>
-			</recipeUsers>
-			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		<recipeMaker>
+			<researchPrerequisite>O21_DNI_FlintlockGuns</researchPrerequisite>
 		</recipeMaker>
 		<verbs>
 			<li>

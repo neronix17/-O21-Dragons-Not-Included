@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="HatMakeableBase" Name="DNIZoraiMaskBase" Abstract="true">
+		<description>Elegant traditional mask, often with religious significance. Improves social impact.</description>
+		<recipeMaker>
+			<researchPrerequisite />
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li>CraftingSpot</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.15</drawSize>
+		</graphicData>
+		<uiIconScale>1.15</uiIconScale>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>14</costStuffCount>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>0.2</Mass>
+			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.15</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+            <tags Inherit="false">
+                <li>Neolithic</li>
+                <li>ZoraiMask</li>
+            </tags>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+            <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="DNIZoraiMaskBase">
+		<defName>O21_DNI_ZoraiMaskA</defName>
+		<label>zorai mask (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Clothing/Zorai/ZoraiMaskA</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="DNIZoraiMaskBase">
+		<defName>O21_DNI_ZoraiMaskB</defName>
+		<label>zorai mask (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Clothing/Zorai/ZoraiMaskB</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="DNIZoraiMaskBase">
+		<defName>O21_DNI_ZoraiMaskC</defName>
+		<label>zorai mask (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Clothing/Zorai/ZoraiMaskC</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="DNIZoraiMaskBase">
+		<defName>O21_DNI_ZoraiMaskD</defName>
+		<label>zorai mask (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskD_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Clothing/Zorai/ZoraiMaskD</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+</Defs>

@@ -6,7 +6,7 @@
 	<ThingDef ParentName="ArmorSmithableBase">
 		<defName>O21_DNI_PauldronsKnight</defName>
 		<label>knight pauldrons</label>
-		<description>Dual metal pauldrons, decent protection overall.</description>
+		<description>Metal pauldrons, decent protection overall.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
 			<texPath>Things/Apparel/Armour/Metal/Pauldrons</texPath>
@@ -56,8 +56,8 @@
 	
 	<ThingDef ParentName="ArmorSmithableBase">
 		<defName>O21_DNI_BreastplateKnight</defName>
-		<label>knight breastplate</label>
-		<description>A metal breastplate, decent protection for your chest. (includes leg protection)</description>
+		<label>knight cuirass</label>
+		<description>A metal cuirass, decent protection for the chest. (includes leg protection)</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
 			<texPath>Things/Apparel/Armour/Metal/Breastplate</texPath>

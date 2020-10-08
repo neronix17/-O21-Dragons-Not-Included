@@ -3,7 +3,7 @@
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_ShoulderCloak</defName>
-		<label>cloak (shoulder)</label>
+		<label>shoulder cloak</label>
 		<description>A tough cloak to protect against heat, cold and some damage protection.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Storage Tent -->
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>LWM's Deep Storage</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <success>Always</success>
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs</xpath>
+                    <value>
+						<ThingDef ParentName="LWM_DeepStorage">
+							<defName>O21_DNI_StorageTent</defName>
+							<label>storage tent</label>
+							<description>A simple tent for storing items in.</description>
+							<graphicData>
+								<texPath>Things/Buildings/Storage/DNI_StorageTent</texPath>
+								<graphicClass>Graphic_Single</graphicClass>
+								<drawSize>(3.2,3.2)</drawSize>
+								<drawRotated>false</drawRotated>
+								<shaderType>CutoutComplex</shaderType>
+							</graphicData>
+							<defaultPlacingRot>South</defaultPlacingRot>
+							<uiIconPath>Things/Buildings/Storage/DNI_StorageTent</uiIconPath>
+							<castEdgeShadows>true</castEdgeShadows>
+							<pathCost>300</pathCost>
+							<size>(3,3)</size>
+							<fillPercent>0.6</fillPercent>
+							<statBases>
+								<Beauty>0</Beauty>
+								<MaxHitPoints>300</MaxHitPoints>
+								<WorkToBuild>10000</WorkToBuild>
+								<Flammability>1</Flammability>
+								<Mass>40</Mass>
+							</statBases>
+							<stuffCategories>
+								<li>Fabric</li>
+								<li>Leathery</li>
+							</stuffCategories>
+							<costList>
+								<Steel>15</Steel>
+							</costList>
+							<costStuffCount>150</costStuffCount>
+							<building>
+								<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+								<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+								<uninstallWork>800</uninstallWork>
+								<defaultStorageSettings>
+									<priority>Important</priority>
+									<filter>
+									</filter>
+								</defaultStorageSettings>
+							</building>
+							<comps>
+								<li Class="LWM.DeepStorage.Properties">
+									<minNumberStacks>1</minNumberStacks>
+									<maxNumberStacks>7</maxNumberStacks>
+									<timeStoringTakes>35</timeStoringTakes>
+									<showContents>false</showContents>
+									<overlayType>SumOfAllItems</overlayType>
+								</li>
+							</comps>
+						</ThingDef>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

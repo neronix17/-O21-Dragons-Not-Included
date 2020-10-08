@@ -5,7 +5,7 @@
 	
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_LeatherLight</defName>
-		<label>pauldrons (light)</label>
+		<label>leather pauldron</label>
 		<description>A single leathery pauldron, decent protection overall.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
@@ -59,7 +59,7 @@
 	
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_LeatherHeavy</defName>
-		<label>pauldrons (heavy)</label>
+		<label>leather pauldrons</label>
 		<description>A pair of leathery pauldrons, decent protection overall.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>

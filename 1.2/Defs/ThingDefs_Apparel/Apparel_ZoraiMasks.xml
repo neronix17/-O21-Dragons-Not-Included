@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef ParentName="HatMakeableBase" Name="DNIZoraiMaskBase" Abstract="true">
-		<description>Elegant traditional mask, often with religious significance. Improves social impact.</description>
+		<description>Elegant traditional mask, often associated with religious significance. Improves social impact.</description>
 		<recipeMaker>
 			<researchPrerequisite />
 			<recipeUsers>

@@ -3,8 +3,8 @@
 
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_TunicKnight</defName>
-		<description>A nice-looking medieval tunic.</description>
 		<label>knight tunic</label>
+		<description>A nice plain medieval tunic.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Clothing/Tunic/Tunic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

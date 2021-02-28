@@ -3,6 +3,7 @@
 
 	<ThingDef ParentName="TropicalSpearBase">
         <defName>O21_TropicalSpearA</defName>
+		<label>tropical spear (a)</label>
         <graphicData>
             <texPath>Things/Weapons/Melee/Spear01</texPath>
             <drawSize>1.0</drawSize>
@@ -11,6 +12,7 @@
 
 	<ThingDef ParentName="TropicalSpearBase">
         <defName>O21_TropicalSpearB</defName>
+		<label>tropical spear (b)</label>
         <graphicData>
             <texPath>Things/Weapons/Melee/Spear02</texPath>
             <drawSize>1.0</drawSize>
@@ -19,6 +21,7 @@
 
 	<ThingDef ParentName="TropicalSpearBase">
         <defName>O21_TropicalSpearC</defName>
+		<label>tropical spear (c)</label>
         <graphicData>
             <texPath>Things/Weapons/Melee/Spear03</texPath>
             <drawSize>1.0</drawSize>
@@ -27,6 +30,7 @@
 
 	<ThingDef ParentName="TropicalSpearBase">
         <defName>O21_TropicalSpearD</defName>
+		<label>tropical spear (d)</label>
         <graphicData>
             <texPath>Things/Weapons/Melee/Spear04</texPath>
             <drawSize>1.0</drawSize>

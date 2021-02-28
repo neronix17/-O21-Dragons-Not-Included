@@ -5,11 +5,11 @@
 	
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_LeatherLight</defName>
-		<label>leather pauldron</label>
+		<label>ranger pauldron</label>
 		<description>A single leathery pauldron, decent protection overall.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
-			<texPath>Things/Apparel/Armour/Leather/LightLeather</texPath>
+			<texPath>DNI/Apparel/Ranger/Pauldron</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -39,9 +39,9 @@
 				<li>Arms</li>
 				<li>Hands</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/Armour/Leather/LightLeather</wornGraphicPath>
+			<wornGraphicPath>DNI/Apparel/Ranger/Pauldron</wornGraphicPath>
 			<layers>
-				<li>MiddleExtra</li>
+				<li>ShellExtra</li>
 			</layers>
 			<tags>
 				<li>Medieval</li>
@@ -59,11 +59,11 @@
 	
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_LeatherHeavy</defName>
-		<label>leather pauldrons</label>
+		<label>ranger pauldrons</label>
 		<description>A pair of leathery pauldrons, decent protection overall.</description>
 		<techLevel>Medieval</techLevel>
 		<graphicData>
-			<texPath>Things/Apparel/Armour/Leather/HeavyLeather</texPath>
+			<texPath>DNI/Apparel/Ranger/Pauldrons</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -93,9 +93,9 @@
 				<li>Arms</li>
 				<li>Hands</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/Armour/Leather/HeavyLeather</wornGraphicPath>
+			<wornGraphicPath>DNI/Apparel/Ranger/Pauldrons</wornGraphicPath>
 			<layers>
-				<li>MiddleExtra</li>
+				<li>ShellExtra</li>
 			</layers>
 			<tags>
 				<li>Medieval</li>

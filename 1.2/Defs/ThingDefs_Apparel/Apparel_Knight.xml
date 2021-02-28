@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================================= Metal Armour =======================================-->
+	
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>O21_DNI_PauldronsKnight</defName>
+		<label>knight pauldrons</label>
+		<description>Metal pauldrons, decent protection overall.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>DNI/Apparel/Knight/Pauldrons</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>4000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.3</Flammability>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<wornGraphicPath>DNI/Apparel/Knight/Pauldrons</wornGraphicPath>
+			<layers>
+				<li>ShellExtra</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+        <recipeMaker>
+			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
+        </recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>O21_DNI_BreastplateKnight</defName>
+		<label>knight cuirass</label>
+		<description>A metal cuirass, decent protection for the chest. (includes leg protection)</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>DNI/Apparel/Knight/Cuirass</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.3</Flammability>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>1</Insulation_Cold>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>DNI/Apparel/Knight/Cuirass</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+        <recipeMaker>
+			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
+        </recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="ArmorSmithableBase">
+		<defName>O21_DNI_HelmetKnight</defName>
+		<label>knight helmet</label>
+		<techLevel>Medieval</techLevel>
+		<description>A metal helmet. Decent protection.</description>
+		<graphicData> 
+			<texPath>DNI/Apparel/Knight/Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>2</Mass>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>100</MarketValue>
+			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.27</ArmorRating_Heat>
+			<Insulation_Cold>0.5</Insulation_Cold>
+			<EquipDelay>2.5</EquipDelay>
+		</statBases>
+		<thingCategories Inherit="False">
+			<li>ArmorHeadgear</li>
+		</thingCategories>
+		<costStuffCount>20</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<apparel>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<tags>
+				<li>Medieval</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorDecent</li>
+			</tags>
+			<wornGraphicPath>DNI/Apparel/Knight/Helmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+		</apparel>
+        <recipeMaker>
+			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
+        </recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>O21_DNI_KnightSurcoat</defName>
+		<label>knight surcoat</label>
+		<description>A mostly decorative piece of clothing worn over armour.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>DNI/Apparel/Knight/Surcoat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<costStuffCount>80</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+        <recipeMaker>
+			<researchPrerequisite>O21_DNI_SimpleApparel</researchPrerequisite>
+        </recipeMaker>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Mass>1.7</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<wornGraphicPath>DNI/Apparel/Knight/Surcoat</wornGraphicPath>
+			<layers>
+				<li>MiddleExtra</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+				<li>MedievalBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

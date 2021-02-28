@@ -9,6 +9,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Clothing/Nausicaan/Hood_east</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
 		<costStuffCount>25</costStuffCount>
@@ -33,9 +34,8 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<tags Inherit="False">
+			<tags>
 				<li>Nausic</li>
-				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -55,6 +55,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Clothing/Nausicaan/HoodArmoured_east</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<stuffCategories>
@@ -91,7 +92,6 @@
 			</layers>
 			<tags>
 				<li>Nausic</li>
-				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -107,6 +107,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Clothing/Nausicaan/GasMask_east</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.25</uiIconScale>
 		<costStuffCount>25</costStuffCount>
@@ -136,7 +137,6 @@
 			</layers>
 			<tags Inherit="False">
 				<li>Nausic</li>
-				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Worker</li>
@@ -156,6 +156,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Clothing/Nausicaan/GasMaskArmoured_east</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<statBases>
@@ -195,7 +196,6 @@
 			</layers>
 			<tags>
 				<li>Nausic</li>
-				<li>MedievalMilitary</li>
 			</tags>
 			<defaultOutfitTags>
 				<li>Soldier</li>

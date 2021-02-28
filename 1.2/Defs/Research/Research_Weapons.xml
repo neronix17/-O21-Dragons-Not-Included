@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- ResearchProjectDef ParentName="O21DNIResearchBase">
-		<defName>O21_DNI_RoughWeapons</defName>
-		<label>rough weapons</label>
-		<description>Craft rough weapons, practically tribal.</description>
-		<baseCost>600</baseCost>
-		<tags>
-			<li>ClassicStart</li>
-		</tags>
-		<researchViewX>0</researchViewX>
-		<researchViewY>1</researchViewY>
-	</ResearchProjectDef -->
-
 	<ResearchProjectDef ParentName="O21DNIResearchBase">
 		<defName>O21_DNI_FlintlockGuns</defName>
 		<label>flintlock guns</label>

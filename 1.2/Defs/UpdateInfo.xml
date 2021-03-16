@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<O21Toolbox.UpdateListings.UpdateDef>
+		<defName>O21_DNI_20210317_Update</defName>
+		<date>2021/03/17</date>
+		<content>Big content pack update! Based mostly on Japanese historical stuff.
+- Added 14 Melee weapons
+- Added 6 Ranged/Thrown weapons
+- Added 3 Apparel sets
+These will not spawn on vanilla faction pawns, they're intended mostly for the player and to make my Forgotten Realms race factions more unique.</content>
+		<linkUrl>https://outpost-21.fandom.com/wiki/Dragons_Not_Included</linkUrl>
+		<important>False</important>
+	</O21Toolbox.UpdateListings.UpdateDef>
+
+</Defs>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- ======================================= Metal Armour =======================================-->
-	
+
 	<ThingDef ParentName="ArmorSmithableBase">
 		<defName>O21_DNI_PauldronsGondorian</defName>
 		<label>gondorian pauldrons</label>
@@ -17,10 +17,9 @@
 			<MaxHitPoints>400</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.3</Flammability>
-			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.27</ArmorRating_Heat>
-			<Insulation_Cold>1</Insulation_Cold>
+			<StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -49,11 +48,11 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-        <recipeMaker>
+		<recipeMaker>
 			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
-        </recipeMaker>
+		</recipeMaker>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="ArmorSmithableBase">
 		<defName>O21_DNI_CuirassGondorian</defName>
 		<label>gondorian cuirass</label>
@@ -68,10 +67,9 @@
 			<MaxHitPoints>400</MaxHitPoints>
 			<Mass>4</Mass>
 			<Flammability>0.3</Flammability>
-			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.27</ArmorRating_Heat>
-			<Insulation_Cold>1</Insulation_Cold>
+			<StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -102,9 +100,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-        <recipeMaker>
+		<recipeMaker>
 			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
-        </recipeMaker>
+		</recipeMaker>
 	</ThingDef>
 
 	<ThingDef ParentName="ArmorSmithableBase" Name="GondorianHelmet">
@@ -112,7 +110,7 @@
 		<label>gondorian soldier helmet</label>
 		<techLevel>Medieval</techLevel>
 		<description>A metal helmet. Decent protection.</description>
-		<graphicData> 
+		<graphicData>
 			<texPath>DNI/Apparel/Gondor/SoldierHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -122,10 +120,9 @@
 			<WorkToMake>3000</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
 			<MarketValue>100</MarketValue>
-			<ArmorRating_Sharp>0.75</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.46</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.27</ArmorRating_Heat>
-			<Insulation_Cold>0.5</Insulation_Cold>
+			<StuffEffectMultiplierArmor>0.73</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>2.5</EquipDelay>
 		</statBases>
 		<thingCategories Inherit="False">
@@ -152,15 +149,15 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 		</apparel>
-        <recipeMaker>
+		<recipeMaker>
 			<researchPrerequisite>O21_DNI_MetalArmour</researchPrerequisite>
-        </recipeMaker>
+		</recipeMaker>
 	</ThingDef>
 
 	<ThingDef ParentName="GondorianHelmet">
 		<defName>O21_DNI_HelmetGondorOfficer</defName>
 		<label>gondorian officer helmet</label>
-		<graphicData> 
+		<graphicData>
 			<texPath>DNI/Apparel/Gondor/OfficerHelmet</texPath>
 		</graphicData>
 		<apparel>
@@ -172,7 +169,7 @@
 	<ThingDef ParentName="GondorianHelmet">
 		<defName>O21_DNI_HelmetGondorCaptain</defName>
 		<label>gondorian captain helmet</label>
-		<graphicData> 
+		<graphicData>
 			<texPath>DNI/Apparel/Gondor/CaptainHelmet</texPath>
 		</graphicData>
 		<apparel>

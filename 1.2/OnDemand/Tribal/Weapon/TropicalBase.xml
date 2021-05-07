@@ -44,7 +44,7 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality" Name="TropicalClubBase" Abstract="True">
 		<label>tropical club</label>
-		<description>This thing is suprisingly heavy...wait is that human bone...</description>
+		<description>This thing is surprisingly heavy...wait is that human bone...</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>

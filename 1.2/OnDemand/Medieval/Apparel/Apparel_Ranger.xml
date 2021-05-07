@@ -2,7 +2,7 @@
 <Defs>
 
 	<!-- ======================================= Leather Armour =======================================-->
-	
+
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_LeatherLight</defName>
 		<label>ranger pauldron</label>
@@ -17,10 +17,9 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.3</Flammability>
-			<ArmorRating_Sharp>0.65</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.20</ArmorRating_Heat>
-			<Insulation_Cold>1</Insulation_Cold>
+			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -52,11 +51,11 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-        <recipeMaker>
+		<recipeMaker>
 			<researchPrerequisite>O21_DNI_LeatherArmour</researchPrerequisite>
-        </recipeMaker>
+		</recipeMaker>
 	</ThingDef>
-	
+
 	<ThingDef ParentName="ApparelMakeableBase">
 		<defName>O21_DNI_LeatherHeavy</defName>
 		<label>ranger pauldrons</label>
@@ -71,10 +70,9 @@
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.3</Flammability>
-			<ArmorRating_Sharp>0.70</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.25</ArmorRating_Heat>
-			<Insulation_Cold>1</Insulation_Cold>
+			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>5</EquipDelay>
 		</statBases>
 		<thingCategories>
@@ -106,9 +104,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-        <recipeMaker>
+		<recipeMaker>
 			<researchPrerequisite>O21_DNI_LeatherArmour</researchPrerequisite>
-        </recipeMaker>
+		</recipeMaker>
 	</ThingDef>
 
 </Defs>

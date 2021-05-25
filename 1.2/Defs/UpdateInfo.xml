@@ -3,23 +3,19 @@
 
 	<O21Toolbox.UpdateListings.UpdateDef>
 		<defName>O21_DNI_20210509_Update</defName>
-		<date>2021/05/09</date>
-		<content>IMPORTANT: Vanilla Expanded Framework will be a requirement in future for coming content. Please make sure you have it enabled, or make a local copy of this version of the mod since it'll be the last one that doesn't need it. Humanoid Alien Races 2.0 is also a soft requirement for future content, meaning you won't need it but some content will be disabled if you don't have it.
+		<date>2021/05/24</date>
+		<content>IMPORTANT: Vanilla Expanded Framework will be a requirement in future for coming content. Please make sure you have it enabled, or make a local copy of this version of the mod since it'll be the last one that doesn't need it.
 
 Big content pack update, with two separate themes!
 + Sengoku
 -- Added 14 Melee weapons
 -- Added 6 Ranged/Thrown weapons
--- Added 3 Apparel sets
 
 + Highland
 -- Added 5 Melee weapons
 -- Added 1 Ranged weapons
--- Added 2 Apparel sets
 
-Beyond that there's some minor adjustments, "Medieval Components" are now a thing so they can be utilised by me and any others who wish to hook into the mods core content. This bring the medieval era into line with industrial and spacer having their own components, and lays some foundations for deeper expansion into the medieval technology tier. 
-
-This version of the mod also marks the addition of settings to let you enable/disable modules of the mod. Currently it's split into Tribal, Medieval, Arcane, Highland, Sengoku and Magic. See the wiki for more information on what each module contains.</content>
+Along with the additions there's fixes for previous stuff, just reworking apparel to account for the stuff it's made of for stats instead of having hard set stats. There's apparel that was due to be in this update, but I wasn't happy with the result so delayed them for the next update so the rest of this could be put out sooner.</content>
 		<linkUrl>https://outpost-21.fandom.com/wiki/Dragons_Not_Included</linkUrl>
 		<important>True</important>
 	</O21Toolbox.UpdateListings.UpdateDef>

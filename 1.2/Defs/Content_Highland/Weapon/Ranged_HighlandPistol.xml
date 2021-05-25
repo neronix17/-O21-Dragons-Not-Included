@@ -2,18 +2,20 @@
 <Defs>
 
 	<ThingDef ParentName="O21BaseMakeableGunMedieval">
-		<defName>O21_Gun_FlintlockPistol</defName>
-		<label>flintlock pistol</label>
+		<defName>O21_Gun_HighlandPistol</defName>
+		<label>highland pistol</label>
 		<description>An advanced medieval weapon, using explosive powder ignited by a flint and steel mechanism to propel a metal ball.</description>
 		<graphicData>
-			<texPath>Things/Weapons/Ranged/FlintlockPistol</texPath>
+			<texPath>DNI/Weapons/Ranged/HighlandPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Revolver</soundInteract>
-		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
 		<statBases>
 			<WorkToMake>6000</WorkToMake>
-			<Mass>1.4</Mass>
+			<Mass>1.2</Mass>
 			<AccuracyTouch>0.75</AccuracyTouch>
 			<AccuracyShort>0.60</AccuracyShort>
 			<AccuracyMedium>0.40</AccuracyMedium>
@@ -21,12 +23,12 @@
 			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 		</statBases>
 		<weaponTags>
-			<li>SimpleGun</li>
-			<li>FlintlockPistol</li>
+			<li>HighlandGun</li>
+			<li>HighlandPistol</li>
 		</weaponTags>
 		<costList>
 			<Steel>40</Steel>
-			<Gold>6</Gold>
+			<Silver>30</Silver>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisite>O21_DNI_FlintlockGuns</researchPrerequisite>
@@ -35,7 +37,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>O21_Bullet_FlintlockPistol</defaultProjectile>
+				<defaultProjectile>O21_Bullet_HighlandPistol</defaultProjectile>
 				<warmupTime>0.7</warmupTime>
 				<range>24.9</range>
 				<soundCast>Shot_Revolver</soundCast>
@@ -65,7 +67,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>O21_Bullet_FlintlockPistol</defName>
+		<defName>O21_Bullet_HighlandPistol</defName>
 		<label>lead bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
@@ -78,5 +80,5 @@
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
-	
+
 </Defs>

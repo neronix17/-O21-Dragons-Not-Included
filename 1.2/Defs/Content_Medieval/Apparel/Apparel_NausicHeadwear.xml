@@ -45,6 +45,7 @@
         <recipeMaker>
 			<researchPrerequisite>O21_DNI_SimpleApparel</researchPrerequisite>
         </recipeMaker>
+		<generateCommonality>0</generateCommonality>
 	</ThingDef>
 	
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -97,6 +98,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<generateCommonality>0</generateCommonality>
 	</ThingDef>
 
 	<ThingDef ParentName="HatMakeableBase">
@@ -146,6 +148,7 @@
         <recipeMaker>
 			<researchPrerequisite>O21_DNI_SimpleApparel</researchPrerequisite>
         </recipeMaker>
+		<generateCommonality>0</generateCommonality>
 	</ThingDef>
 	
 	<ThingDef ParentName="ArmorHelmetMakeableBase">
@@ -201,6 +204,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<generateCommonality>0</generateCommonality>
 	</ThingDef>
 
 </Defs>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef ParentName="O21DNIResearchBase">
+		<defName>O21_DNI_FlintlockGuns</defName>
+		<label>flintlock guns</label>
+		<description>Bit of flint, bit of steel, bit of weird explosive powder, and you have a gun.</description>
+		<baseCost>1200</baseCost>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="O21DNIResearchBase">
+		<defName>O21_DNI_ResonanceGuns</defName>
+		<label>resonance guns</label>
+		<description>Mildly magical type of gun that does blunt damage, wizards tend to make people go to sleep trying to explain how it works.</description>
+		<baseCost>1200</baseCost>
+		<prerequisites>
+			<li>O21_DNI_FlintlockGuns</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>1</researchViewY>
+	</ResearchProjectDef>
+    
+</Defs>

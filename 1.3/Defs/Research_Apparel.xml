@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef ParentName="O21DNIResearchBase">
+		<defName>O21_DNI_SimpleApparel</defName>
+		<label>simple apparel</label>
+		<description>Craft simple apparel, nothing too fancy but it'll do the job.</description>
+		<baseCost>600</baseCost>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="O21DNIResearchBase">
+		<defName>O21_DNI_LeatherArmour</defName>
+		<label>light armour</label>
+		<description>Craft light armour, might stop the lighter beatings but won't stop a sword.</description>
+		<baseCost>800</baseCost>
+		<prerequisites>
+			<li>O21_DNI_SimpleApparel</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="O21DNIResearchBase">
+		<defName>O21_DNI_MetalArmour</defName>
+		<label>heavy armour</label>
+		<description>Craft heavy armour, worthy of a knight even.</description>
+		<baseCost>1200</baseCost>
+		<prerequisites>
+			<li>O21_DNI_LeatherArmour</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+    
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TropicalBlowpipeBase">
+        <defName>O21_TropicalBoneBlowpipe</defName>
+        <label>tropical bone blowpipe</label>
+        <graphicData>
+            <texPath>Things/Weapons/Ranged/BoneBlowpipe</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="TropicalBlowpipeBase">
+        <defName>O21_TropicalBambooBlowpipe</defName>
+        <label>tropical bamboo blowpipe</label>
+        <graphicData>
+            <texPath>Things/Weapons/Ranged/BambooBlowpipe</texPath>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+	</ThingDef>
+
+</Defs>

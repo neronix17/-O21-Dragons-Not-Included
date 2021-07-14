@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="HatMakeableBase" Name="DNIZoraiMaskBase" Abstract="true">
+	<ThingDef ParentName="HatMakeableBase">
+		<defName>O21_DNI_ZoraiMask</defName>
+		<label>zorai mask</label>
 		<description>Elegant traditional mask, often associated with religious significance. Improves social impact.</description>
 		<recipeMaker>
 			<researchPrerequisite />
@@ -15,6 +17,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<graphicData>
+			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskA_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.15</drawSize>
@@ -45,6 +48,12 @@
 				<li>UpperHead</li>
 			</bodyPartGroups>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<wornGraphicPaths>
+				<li>Things/Apparel/Clothing/Zorai/ZoraiMaskA</li>
+				<li>Things/Apparel/Clothing/Zorai/ZoraiMaskB</li>
+				<li>Things/Apparel/Clothing/Zorai/ZoraiMaskC</li>
+				<li>Things/Apparel/Clothing/Zorai/ZoraiMaskD</li>
+			</wornGraphicPaths>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -52,49 +61,6 @@
 				<li>Worker</li>
 			</defaultOutfitTags>
             <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-		</apparel>
-	</ThingDef>
-
-	<ThingDef ParentName="DNIZoraiMaskBase">
-		<defName>O21_DNI_ZoraiMaskA</defName>
-		<label>zorai mask (a)</label>
-		<graphicData>
-			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskA_south</texPath>
-		</graphicData>
-		<apparel>
-		</apparel>
-	</ThingDef>
-
-	<ThingDef ParentName="DNIZoraiMaskBase">
-		<defName>O21_DNI_ZoraiMaskB</defName>
-		<label>zorai mask (b)</label>
-		<graphicData>
-			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskB_south</texPath>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Things/Apparel/Clothing/Zorai/ZoraiMaskB</wornGraphicPath>
-		</apparel>
-	</ThingDef>
-
-	<ThingDef ParentName="DNIZoraiMaskBase">
-		<defName>O21_DNI_ZoraiMaskC</defName>
-		<label>zorai mask (c)</label>
-		<graphicData>
-			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskC_south</texPath>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Things/Apparel/Clothing/Zorai/ZoraiMaskC</wornGraphicPath>
-		</apparel>
-	</ThingDef>
-
-	<ThingDef ParentName="DNIZoraiMaskBase">
-		<defName>O21_DNI_ZoraiMaskD</defName>
-		<label>zorai mask (d)</label>
-		<graphicData>
-			<texPath>Things/Apparel/Clothing/Zorai/ZoraiMaskD_south</texPath>
-		</graphicData>
-		<apparel>
-			<wornGraphicPath>Things/Apparel/Clothing/Zorai/ZoraiMaskD</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 

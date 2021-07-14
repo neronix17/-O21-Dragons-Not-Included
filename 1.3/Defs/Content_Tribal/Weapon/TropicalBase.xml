@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="TropicalBladeBase" Abstract="True">
+		<label>tropical knife</label>
+		<description>Short and sharp, covered in teeth marks...</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+		<statBases>
+            <Mass>1.0</Mass>
+			<MarketValue>200</MarketValue>
+		</statBases>
+        <costList>
+            <WoodLog>30</WoodLog>
+        </costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality" Name="TropicalClubBase" Abstract="True">
+		<label>tropical club</label>
+		<description>This thing is surprisingly heavy...wait is that human bone...</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+		<statBases>
+            <Mass>1.8</Mass>
+			<MarketValue>275</MarketValue>
+		</statBases>
+        <costList>
+            <WoodLog>50</WoodLog>
+        </costList>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>head</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="TropicalSpearBase" Abstract="True">
+		<label>tropical spear</label>
+		<description>A long sharp pointy thing. Looks like it's covered in bite marks...</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.8</drawSize>	
+		</graphicData>
+		<comps>     
+			<li>
+				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
+			</li>
+		</comps>
+		<statBases>
+            <Mass>1.5</Mass>
+			<MarketValue>100</MarketValue>
+		</statBases>
+        <costList>
+            <WoodLog>40</WoodLog>
+        </costList>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>23</power>
+				<armorPenetration>0.50</armorPenetration>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseWeaponNeolithic" Name="TropicalBlowpipeBase" Abstract="True">
+		<label>blowpipe</label>
+		<description>A small carved tube, surprisingly few bite marks on these.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+		<soundInteract>Bow_Small</soundInteract>
+		<statBases>
+            <Mass>0.5</Mass>
+			<MarketValue>200</MarketValue>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.65</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.25</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+        <costList>
+            <WoodLog>30</WoodLog>
+        </costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>O21_TropicalBlowdart</defaultProjectile>
+				<warmupTime>1.35</warmupTime>
+				<range>19.9</range>
+				<soundCast>Bow_Small</soundCast>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>pipe</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+		
+	<ThingDef ParentName="BaseProjectileNeolithic">
+		<defName>O21_TropicalBlowdart</defName>
+		<label>blowdart</label>
+		<graphicData>
+			<texPath>Things/Projectiles/Tropical/Blowdart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Arrow</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<speed>38</speed>
+		</projectile>
+	</ThingDef>
+
+</Defs>

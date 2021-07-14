@@ -2,11 +2,11 @@
 <Defs>
 
 	<ThingDef ParentName="O21BaseMakeableGunMedieval">
-		<defName>O21_Gun_MatchlockPistol</defName>
-		<label>matchlock pistol</label>
-		<description>An advanced sengoku period weapon, using explosive powder ignited by a slow burn match mechanism to propel a metal ball.</description>
+		<defName>O21_Gun_FlintlockPistol</defName>
+		<label>flintlock pistol</label>
+		<description>An advanced medieval weapon, using explosive powder ignited by a flint and steel mechanism to propel a metal ball.</description>
 		<graphicData>
-			<texPath>DNI/Weapons/Ranged/Tanegashima</texPath>
+			<texPath>Things/Weapons/Ranged/FlintlockPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Revolver</soundInteract>
@@ -20,15 +20,15 @@
 			<AccuracyShort>0.60</AccuracyShort>
 			<AccuracyMedium>0.40</AccuracyMedium>
 			<AccuracyLong>0.30</AccuracyLong>
-			<RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 		</statBases>
 		<weaponTags>
 			<li>SimpleGun</li>
-			<li>MatchlockPistol</li>
+			<li>FlintlockPistol</li>
 		</weaponTags>
 		<costList>
 			<Steel>40</Steel>
-			<WoodLog>5</WoodLog>
+			<Gold>6</Gold>
 		</costList>
 		<recipeMaker>
 			<researchPrerequisite>O21_DNI_FlintlockGuns</researchPrerequisite>
@@ -37,9 +37,9 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>O21_Bullet_MatchlockPistol</defaultProjectile>
-				<warmupTime>1.0</warmupTime>
-				<range>23.9</range>
+				<defaultProjectile>O21_Bullet_FlintlockPistol</defaultProjectile>
+				<warmupTime>0.7</warmupTime>
+				<range>24.9</range>
 				<soundCast>Shot_Revolver</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -67,7 +67,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>O21_Bullet_MatchlockPistol</defName>
+		<defName>O21_Bullet_FlintlockPistol</defName>
 		<label>lead bullet</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
@@ -75,7 +75,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>17</damageAmountBase>
+			<damageAmountBase>16</damageAmountBase>
 			<stoppingPower>1</stoppingPower>
 			<speed>55</speed>
 		</projectile>

@@ -2,30 +2,24 @@
 <Defs>
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>O21_DNI_Sasumata</defName>
-		<label>sasumata</label>
-		<description>An ancient pole weapon used to detain criminals, while it is intended to be non-lethal use, it is more than capable of being used lethally.</description>
+		<defName>O21_DNI_SpikedMachete</defName>
+		<label>spiked machete</label>
+		<description>A short sword of ancient design. Good for stabbing or slashing. It's light and nimble, which sometimes lets it beat bigger, heavier weapons.</description>
 		<graphicData>
-			<texPath>DNI/Weapons/Melee/Sasumata</texPath>
+			<texPath>Things/Weapons/Melee/SpikedMachete</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-            <drawSize>1.4</drawSize>
 		</graphicData>
-		<comps>     
-			<li>
-				<compClass>O21Toolbox.WeaponExt.Comp_OversizedWeapon</compClass>
-			</li>
-		</comps>
-		<equippedAngleOffset>-30</equippedAngleOffset>
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>50</costStuffCount>
 		<weaponTags>
-			<li>SengokuMeleeDecent</li>
+			<li>MedievalMeleeDecent</li>
 		</weaponTags>
 		<statBases>
 			<WorkToMake>12000</WorkToMake>
 			<Mass>0.85</Mass>
 		</statBases>
+		<equippedAngleOffset>-30</equippedAngleOffset>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -44,16 +38,16 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>16</power>
-				<cooldownTime>2.25</cooldownTime>
+				<power>18</power>
+				<cooldownTime>2.1</cooldownTime>
 			</li>
 			<li>
 				<label>edge</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>16</power>
-				<cooldownTime>2.25</cooldownTime>
+				<power>18</power>
+				<cooldownTime>2.1</cooldownTime>
 			</li>
 		</tools>
 		<recipeMaker>

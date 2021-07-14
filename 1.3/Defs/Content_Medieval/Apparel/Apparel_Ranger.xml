@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======================================= Leather Armour =======================================-->
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>O21_DNI_LeatherLight</defName>
+		<label>ranger pauldron</label>
+		<description>A single leathery pauldron, decent protection overall.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>DNI/Apparel/Ranger/Pauldron</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.3</Flammability>
+			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<wornGraphicPath>DNI/Apparel/Ranger/Pauldron</wornGraphicPath>
+			<layers>
+				<li>ShellExtra</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>O21_DNI_LeatherArmour</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>O21_DNI_LeatherHeavy</defName>
+		<label>ranger pauldrons</label>
+		<description>A pair of leathery pauldrons, decent protection overall.</description>
+		<techLevel>Medieval</techLevel>
+		<graphicData>
+			<texPath>DNI/Apparel/Ranger/Pauldrons</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.3</Flammability>
+			<StuffEffectMultiplierArmor>0.70</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>5</EquipDelay>
+		</statBases>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Hands</li>
+			</bodyPartGroups>
+			<wornGraphicPath>DNI/Apparel/Ranger/Pauldrons</wornGraphicPath>
+			<layers>
+				<li>ShellExtra</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+				<li>MedievalMilitary</li>
+				<li>MedievalArmorBasic</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>O21_DNI_LeatherArmour</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

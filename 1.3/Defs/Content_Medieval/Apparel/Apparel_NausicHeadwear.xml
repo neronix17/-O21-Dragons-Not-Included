@@ -205,6 +205,7 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
 	</ThingDef>
 
 </Defs>
